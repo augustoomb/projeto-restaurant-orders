@@ -84,28 +84,11 @@ hamburguer
 
 - Código legível e modularizado, quando for o caso.
 
-<details>
-  <summary>
-    <b>🤖 Clique aqui para ver o que será verificado pelo avaliador.</b>
-  </summary>
-
-- 1.1 - Será validado se, ao executar o método `analyze_log`, os dados são preenchidos de forma correta no arquivo `data/mkt_campaign.txt`;
-
-- 1.2 - Será validado se, ao executar o método `analyze_log` com um arquivo inexistente, o método retorna um erro `FileNotFoundError` com a mensagem de erro abaixo:
-  ```
-  "Arquivo inexistente: '{nome_do_arquivo}'"
-  ```
-- 1.3 - Será validado se, ao executar o método `analyze_log` com uma extensão inválida, o método retorna um erro com a mensagem abaixo:
-  ```
-  "Extensão inválida: '{nome_do_arquivo}'"
-  ```
-</details>
-
 ## 2 - Análises contínuas
 
-> Implemente a classe `TrackOrders` que gere informações contínuas da 🥖🧑‍🍳 Pão na Chapa 🥖🧑‍🍳 .
+> Implemente a classe `TrackOrders` que gere informações contínuas da  Pão na Chapa 🍳 .
 
-A campanha de marketing foi um sucesso! A gerência da 🥖🧑‍🍳 Pão na Chapa 🥖🧑‍🍳 deseja agora um sistema que mantenha um registro contínuo dessas informações. Mais especificamente, deseja que o sistema permita, a qualquer momento, a extração das seguintes informações:
+A campanha de marketing foi um sucesso! A gerência da  Pão na Chapa deseja agora um sistema que mantenha um registro contínuo dessas informações. Mais especificamente, deseja que o sistema permita, a qualquer momento, a extração das seguintes informações:
 
 - Prato favorito por cliente;
 
@@ -179,25 +162,6 @@ class TrackOrders:
 
 - Os métodos atingem complexidade ótima (geralmente `O(1)` ou `O(n)`, em alguns métodos que usam `Set`).
 
-<details>
-  <summary>
-    <b>🤖 Clique aqui para ver o que será verificado pelo avaliador.</b>
-  </summary>
-
-- 2.1 - Será validado se, ao instanciar a classe `TrackOrders` pela primeira vez, o método `len()` retorna a quantidade de pedidos igual a zero;
-
-- 2.2 - Será validado se, ao executar o método `add_new_order`, o método registra um pedido na instância;
-
-- 2.3 - Será validado se, ao executar `get_most_ordered_dish_per_customer`, o método retorna o prato mais pedido;
-
-- 2.4 - Será validado se, ao executar `get_never_ordered_per_customer`, o método retorna o conjunto de pratos que a pessoa nunca pediu;
-
-- 2.5 - Será validado se, ao executar `get_days_never_visited_per_customer`, o método retorna o conjunto de dias que a pessoa nunca visitou;
-
-- 2.6 - Será validado se, ao executar o método `get_busiest_day`, o método retorna o dia mais movimentado e;
-
-- 2.7 - Será validado se, ao executar o método `get_least_busy_day`, o método retorna o dia menos movimentado.
-</details>
 
 
 ---
