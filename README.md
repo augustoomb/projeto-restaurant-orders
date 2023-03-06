@@ -74,7 +74,6 @@ hamburguer
 ```
 </details>
 
-:eyes: _De olho na Dica:_ a ordem dos pedidos, bem como dos dias da semana não precisa ser exatamente a apresentada no exemplo.
 
 - No arquivo `analyze_log.py` deve estar implementada a função `def analyze_log(path_to_file)`;
 
@@ -110,7 +109,6 @@ Para isso, você deverá implementar uma classe que entregue as informações ac
 
 - O arquivo `src/main.py` é apenas auxiliar e faz a leitura do arquivo `csv` especificado e envia, ao mesmo tempo, a informação de cada pedido para as classes `TrackOrders` e para a classe `InventoryControl`;
 
-:eyes: _De olho na Dica:_ não se preocupe ainda com o arquivo `inventory_control.py` (classe InventoryControl), pois ele é necessário apenas para a realização dos requisitos bônus.
 
 - No arquivo `src/main.py` algumas informações são impressas na tela para que você observe o comportamento das classes após a leitura completa do arquivo `csv`,
 
@@ -148,8 +146,6 @@ class TrackOrders:
     def get_least_busy_day(self):
         pass
 ```
-
-:eyes: _De olho nas Dicas:_ você é livre para criar os atributos e métodos necessários; crie uma classe legível e bem modularizada; não implemente funcionalidades que ainda não são necessárias, nem coloque atributos do tipo "vai que um dia precisa"; sempre rode o arquivo `main.py` para verificar o comportamento da sua classe.
 
 </details>
 
